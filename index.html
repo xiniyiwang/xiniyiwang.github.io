@@ -20,6 +20,46 @@
         .email-address {
             display: block;
         }
+		body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 1rem 2rem;
+            margin: 1rem 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2, section h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        .email-block {
+            white-space: pre; /* Preserve spaces and line breaks */
+        }
     </style>
 </head>
 <body>
@@ -67,14 +107,43 @@
     </section>
     <section>
         <h2>Publications</h2>
-        <ul>
-            <li><strong>Title of Paper</strong>, Journal Name, Year, <a href="https://doi.org/10.1234/yourdoi">DOI</a></li>
-            <li><strong>Title of Paper</strong>, Journal Name, Year, <a href="https://doi.org/10.1234/yourdoi">DOI</a></li>
-        </ul>
+        <h3>2024</h3>
+        <ol>
+            <li><strong>Developments of a fundamental mechanism for initiation of solar eruptions</strong>,
+			 Reviews of Modern Plasma Physics 8(18), 2024, <a href="https://doi.org/10.1007/s41614-024-00155-6">DOI</a></li>
+        </ol>
+        <h3>2023</h3>
+        <ol>
+            <li><strong>Magnetic Reconnection as the Key Mechanism in Sunspot Rotation Leading to Solar Eruption</strong>,
+			arXiv, 2023, <a href="https://doi.org/10.48550/arXiv.2308.09928">DOI</a></li>
+			<li><strong>Data-driven MHD simulation of a sunspot rotating active region leading to solar eruption</strong>,
+			Astronomy & Astrophysics, 2023, <a href="https://doi.org/10.1051/0004-6361/202347153">DOI</a></li>
+			<li><strong>A comparative study of data-driven MHD simulations of solar coronal evolution with photospheric flows derived from two different approaches</strong>,
+			Frontiers in Astronomy and Space Sciences 10, 2023, <a href="https://doi.org/10.3389/fspas.2023.1157304">DOI</a></li>
+			<li><strong>MHD simulation of a solar eruption from active region 11429 driven by a photospheric velocity field</strong>,
+			The Astrophysical Journal Letters 942(2), 2023, <a href="https://doi.org/10.3847/2041-8213/acaec3">DOI</a></li>
+            <li><strong>Implementation of the HLL-GRP solver for multidimensional ideal MHD simulations based on finite volume method</strong>,
+			Journal of Computational Physics 473, 2023, <a href="https://doi.org/10.1016/j.jcp.2022.111687">DOI</a></li>
+        </ol>
+		<h3>2022</h3>
+        <ol>
+            <li><strong>Direct discontinuous Galerkin method for potential magnetic field solutions</strong>,
+			Frontiers in Astronomy and Space Sciences 9, 2022, <a href="https://doi.org/10.3389/fspas.2022.1055969">DOI</a></li>
+            <li><strong>MHD simulation of homologous eruptions from solar active region 10930 caused by sunspot rotation</strong>,
+			 The Astrophysical Journal 938(1), 2022, <a href="https://doi.org/10.3847/1538-4357/ac8d0e">DOI</a></li>
+			<li><strong>Numerical simulation of a fundamental mechanism of solar eruption with a range of magnetic flux distributions</strong>,
+			Astronomy & Astrophysics 658, 2022, <a href="https://doi.org/10.1051/0004-6361/202141996">DOI</a></li>
+			
+        </ol>
+		<h3>2021</h3>
+        <ol>
+            <li><strong>Formation of magnetic flux rope during solar eruption. I. Evolution of toroidal flux and reconnection flux</strong>
+			, Frontiers in Physics 9, 2021, <a href="https://doi.org/10.3389/fphy.2021.746576">DOI</a></li>
+        </ol>
     </section>
     <section>
         <h2>Awards</h2>
-        <ul>
+        <ol>
             <li><strong>Yan Jici Scholarship</strong>, Institute of Physics|CAS, 2016</li>
             <li><strong>The First Prize in Modern Physics Experiments</strong>, Jilin University, 2018</li>
 			<li><strong>Merit Student</strong>, UCAS, 2018-2019/2020-2021/2022-2023 </li>
@@ -82,13 +151,13 @@
 			Space Physics Committee|Chinese Society for Space Science, 2023
 			</li>
 			<li><strong>Pacemaker to Merit Student</strong>, UCAS, 2022-2023 </li>
-        </ul>
+        </ol>
     </section>
     <section>
         <h2>Interests</h2>
         <ul>
             <li>Piano</li>
-            <li>Music</li>
+            <li>Singing</li>
             <li>Mountain Climbing</li>
         </ul>
     </section>
